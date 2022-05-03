@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
   int m,n;
+  int k;
   string s;
   cin>>m>>n;
   map<string,int>hay;
