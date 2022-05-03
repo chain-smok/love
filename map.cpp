@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-  int m,n;
+  int m,j;
   int k;
   string s;
-  cin>>m>>n;
+  cin>>m>>j;
   map<string,int>hay;
   while(m--)
   {
@@ -13,7 +13,7 @@ int main()
     cin>>s>>p;
     hay[s]=p;
   }
-    while(n--)
+    while(j--)
   {
      int ans=0;
      while(cin>>s&&s!="."){
