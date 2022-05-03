@@ -2,6 +2,7 @@
 using namespace std;
 
 class Inventory{
+      //public:
       private:
         string ProductDescriptor;
         int Balance;  
@@ -32,6 +33,7 @@ class Inventory{
 int main(){
   Inventory inv1("Soda",180),inv2("Apple",200);
   cout<<"balance inv1="<<inv1.get_Balance()<<endl;
+  //inv1.Balance=100;
   inv1.Sale(80);
   cout<<"balance inv1="<<inv1.get_Balance()<<endl;
   inv2.Purchase(50);
