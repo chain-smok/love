@@ -16,4 +16,4 @@ int main(){
   inv2.Purchase(50);
   inv2.Sale(10);
   cout<<"balance of inv2="<<inv2.get_Balance()<<endl;
-}
+} 
